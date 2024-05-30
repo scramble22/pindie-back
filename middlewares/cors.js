@@ -1,4 +1,4 @@
-const allowedCors = [ "scr22-front.nomorepartiesco.ru" ];
+const allowedCors = [ "https://scr22-front.nomorepartiesco.ru" ];
   
   function cors(req, res, next) {
     const { origin } = req.headers;
